@@ -1,0 +1,73 @@
+# 忽略 transE 目录下的所有 .txt 文件
+transE/*.txt
+
+# 或者更广一点，忽略整个项目的所有 .txt（如果其他地方也不想跟踪）
+*.txt
+
+# 如果还有其他临时文件，可以继续加，比如：
+*.log
+*.pyc
+__pycache__/
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+*.egg
+
+# Virtual environments / Conda
+env/
+venv/
+ENV/
+.venv/
+conda_env/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyKEEN output (large folders and files you don't want to commit)
+pykeen_transe_result/
+results/
+runs/
+*.ckpt
+checkpoint/
+
+# Large embedding files (these are huge and regenerated)
+*.txt  # your entityVector.txt, relationVector.txt etc. are 100MB+
+*.npy
+*.bin
+
+# Log files and temporary
+*.log
+*.out
+*.err
+wandb/
+tensorboard/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Data files (if too large or private)
+data/
+dataset/
+*.tsv
+*.csv
+
+# Git
+.git
+.gitignore~
+
+# Misc
+*.tmp
+*.bak
+*.swp
