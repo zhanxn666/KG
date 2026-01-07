@@ -1,5 +1,4 @@
 
-# RotaE/My_RotatE/RotatE_pykeen_pred.py and RotaE/My_RotatE/RotatE_pykeen_train.py
 
 This script is used for generating predictions and training a pre-trained RotatE model using PyKEEN.
 
