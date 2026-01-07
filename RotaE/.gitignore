@@ -1,0 +1,9 @@
+checkpoint
+*.npy
+*.log
+*.pkl
+training_triples/
+*.pth
+*.tsv.gz
+results/
+experiments/
